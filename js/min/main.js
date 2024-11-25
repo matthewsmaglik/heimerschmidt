@@ -68,7 +68,7 @@ $(document).ready((function () {
     }
 
     function p(e) {
-        e.preventDefault(), p = !0, h(), ga("send", "event", "button", "click", "Clicks Archive")
+        e.preventDefault(), p = !0, h(), ga("send", "event", "button", "click", "Clicks Aflote")
     }
 
     function d(e) {
@@ -120,9 +120,9 @@ $(document).ready((function () {
                 urlPath: ce
             }, ie, ce);
         else 1 == p ? (r($("body")), $("body").css("opacity", "0"), p = !1, $("body").on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", (function (e) {
-            console.log("Carga el archivo"), window.location.href = "https://migueltrias.com/archive/", $(this).off(e)
+            console.log("Go To Link"), window.location.href = "https://heimerschmidt.com/aflote", $(this).off(e)
         }))) : 1 == d && (r($("body")), $("body").css("opacity", "0"), d = !1, $("body").on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", (function (e) {
-            console.log("Carga el Kit Digital"), window.location.href = "https://migueltrias.com/kit-digital/", $(this).off(e)
+            console.log("Carga el Kit Digital"), window.location.href = "https://heimerschmidt.com/kit-digital/", $(this).off(e)
         })))
     }
 
