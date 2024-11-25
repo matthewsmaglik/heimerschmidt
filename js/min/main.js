@@ -120,7 +120,7 @@ $(document).ready((function () {
                 urlPath: ce
             }, ie, ce);
         else 1 == p ? (r($("body")), $("body").css("opacity", "0"), p = !1, $("body").on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", (function (e) {
-            console.log("Go To Link"), window.location.href = "https://heimerschmidt.com/aflote", $(this).off(e)
+            console.log("Go To Archive"), window.location.href = "https://heimerschmidt.com/archive", $(this).off(e)
         }))) : 1 == d && (r($("body")), $("body").css("opacity", "0"), d = !1, $("body").on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", (function (e) {
             console.log("Carga el Kit Digital"), window.location.href = "https://heimerschmidt.com/kit-digital/", $(this).off(e)
         })))
@@ -477,7 +477,7 @@ $(document).ready((function () {
     $(window).on("resize", (function () {
         t()
     })), $(V).on("click", s), $(K).on("click", h), $("#openProjects").on("click", i), $(".menuProjectLink").on("click", a), $("#gotoAbout").on("click", c), $("#gotoFollow").on("click", l), 
-    $("#gotoLink").on("click", p), $("#gotoKitDigital").on("click", d);
+    $("#gotoArchive").on("click", p), $("#gotoKitDigital").on("click", d);
     var ge = !1,
         c = !1,
         l = !1,
