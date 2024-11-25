@@ -399,11 +399,7 @@ $(document).ready((function () {
         }))
     }
 
-    function F() {
-        $(".project").each((function (e) {
-            $(this).css("top", ke[e])
-        }))
-    }
+
 
     function W(e) {
         e.removeClass("pLeft"), e.removeClass("pCenter"), e.removeClass("pRight"), e.removeClass("scrollNormal"), e.removeClass("scrollSlow"), e.removeClass("scrollFast")
