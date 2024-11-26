@@ -77,16 +77,16 @@ html {
 
 @font-face {
     font-family: 'brandon_grotesquebold';
-    src: url("../fonts/brandon_bld-webfont.eot");
-    src: url("../fonts/brandon_bld-webfont.eot#iefix") format("embedded-opentype"), url("../fonts/brandon_bld-webfont.woff2") format("woff2"), url("../fonts/brandon_bld-webfont.woff") format("woff"), url("../fonts/brandon_bld-webfont.ttf") format("truetype"), url("../fonts/brandon_bld-webfont.svg#brandon_grotesquebold") format("svg");
+    src: url("/fonts/brandon_bld-webfont.eot");
+    src: url("/fonts/brandon_bld-webfont.eot#iefix") format("embedded-opentype"), url("/fonts/brandon_bld-webfont.woff2") format("woff2"), url("/fonts/brandon_bld-webfont.woff") format("woff"), url("/fonts/brandon_bld-webfont.ttf") format("truetype"), url("/fonts/brandon_bld-webfont.svg#brandon_grotesquebold") format("svg");
     font-weight: lighter;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'brandon_grotesquelight';
-    src: url("../fonts/brandon_light-webfont.eot");
-    src: url("../fonts/brandon_light-webfont.eot#iefix") format("embedded-opentype"), url("../fonts/brandon_light-webfont.woff2") format("woff2"), url("../fonts/brandon_light-webfont.woff") format("woff"), url("../fonts/brandon_light-webfont.ttf") format("truetype"), url("../fonts/brandon_light-webfont.svg#brandon_grotesquelight") format("svg");
+    src: url("https://heimerschmidt.com/fonts/brandon_light-webfont.eot");
+    src: url("https://heimerschmidt.com/fonts/brandon_light-webfont.eot#iefix") format("embedded-opentype"), url("https://heimerschmidt.com/fonts/brandon_light-webfont.woff2") format("woff2"), url("https://heimerschmidt.com/fonts/brandon_light-webfont.woff") format("woff"), url("https://heimerschmidt.com/fonts/brandon_light-webfont.ttf") format("truetype"), url("https://heimerschmidt.com/fonts/brandon_light-webfont.svg#brandon_grotesquelight") format("svg");
     font-weight: lighter;
     font-style: normal;
 }
