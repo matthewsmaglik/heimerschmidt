@@ -289,7 +289,7 @@ a {
 }
 
 a:hover {
-    color: #ff4c4c;
+    color: #eee;
 }
 
 a:not([href]):not([class]),
@@ -395,7 +395,7 @@ button {
 
 button:focus {
     outline: dotted 1px;
-    outline: -webkit-focus-ring-color auto 5px;
+    outline: -webkit-focus-ring-color auto 0px;
 }
 
 input,
@@ -4728,14 +4728,12 @@ fieldset:disabled .btn {
 }
 
 .nav {
+    display: flex;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    font-family: "brandon grotesque", sans-serif;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
 }
 
 .nav-link {
@@ -14295,12 +14293,12 @@ a:hover {
 .site-footer {
     text-align: center;
     font-size: 14px;
-    color: #888;
+    color: #fff;
     padding: 70px 0;
 }
 
 .site-footer a {
-    color: #777;
+    color: #fff;
     position: relative;
     display: inline-block;
 }
@@ -14330,7 +14328,7 @@ a:hover {
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 15px;
-    color: #52565e;
+    color: #fff;
 }
 
 .site-footer .widget .links {
@@ -15712,10 +15710,6 @@ Start of Custom CSS
 */
 
 
-.icon-menu1:before {
-  content: "\e5d2";
-}
-
 .section-title {
     letter-spacing: 1.8em;
     text-align: center;
@@ -15729,13 +15723,13 @@ Start of Custom CSS
 }
 
 .nav-logo {
-    position: fixed;
+    position:absolute;
     display: flex;
+    width: 100%;
+    padding-top: 40px;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
-    z-index: 8;
-    width: 100%;
+    z-index: 10;
 }
 
 
@@ -15856,6 +15850,7 @@ Start of Custom CSS
 .custom-hero .sub-text {
     font-size: 18px;
 }
+
 
 
 /*
