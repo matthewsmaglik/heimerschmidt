@@ -14,6 +14,32 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #ff4c4c;
+  --bs-secondary: #52565e;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-font-sans-serif: "Sofia Sans", sans-serif;
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)); }
+
 
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 1 to 1000
@@ -41,16 +67,18 @@
 
 
 body {
-    min-height: 100vh;
+   
     margin: 0;
-    font-family: "Sofia Sans", sans-serif;
+    font-family: var(--bs-font-sans-serif);s
     font-size: 1rem;
     line-height: 2;
     color: #ffffff;
     background-color: #060606;
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+    outline: 0 !important;}
 
 body:before {
     content: "";
@@ -73,9 +101,6 @@ body.offcanvas-menu:before {
     visibility: visible;
 }
 
-[tabindex="-1"]:focus:not(:focus-visible) {
-    outline: 0 !important;
-}
 
 hr {
     margin: 1rem 0;
@@ -691,7 +716,6 @@ progress {
     font-size: 0.875em;
     color: #6c757d;
 }
-
 .container,
 .container-fluid,
 .container-sm,
@@ -708,18 +732,14 @@ progress {
 @media (min-width: 576px) {
 
     .container,
-    .container-sm {
-    
-    }
+    .container-sm {}
 }
 
 @media (min-width: 768px) {
 
     .container,
     .container-sm,
-    .container-md {
- 
-    }
+    .container-md {}
 }
 
 @media (min-width: 992px) {
@@ -727,20 +747,16 @@ progress {
     .container,
     .container-sm,
     .container-md,
-    .container-lg {
-     
-    }
+    .container-lg {}
 }
 
 @media (min-width: 1200px) {
 
     .container,
     .container-sm,
-    .container-md,
+    .container-md,s
     .container-lg,
-    .container-xl {
-       
-    }
+    .container-xl {}
 }
 
 @media (min-width: 1400px) {
@@ -750,9 +766,7 @@ progress {
     .container-md,
     .container-lg,
     .container-xl,
-    .container-xxl {
-        
-    }
+    .container-xxl {}
 }
 
 .row {
