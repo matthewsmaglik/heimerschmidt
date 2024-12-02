@@ -190,6 +190,8 @@ h5,
 .h5 {
     letter-spacing: .2em;
     font-size: 1.25rem;
+     font-family: "Sofia Sans", sans-serif;
+    font-weight: 100;
 }
 
 h6,
@@ -723,50 +725,10 @@ progress {
 .container-lg,
 .container-xl,
 .container-xxl {
-    padding-right: var(--bs-gutter-x, .75rem);
-    padding-left: var(--bs-gutter-x, .75rem);
+    padding-right: var(--bs-gutter-x, 1rem);
+    padding-left: var(--bs-gutter-x, 1rem);
     margin-right: auto;
     margin-left: auto;
-}
-
-@media (min-width: 576px) {
-
-    .container,
-    .container-sm {}
-}
-
-@media (min-width: 768px) {
-
-    .container,
-    .container-sm,
-    .container-md {}
-}
-
-@media (min-width: 992px) {
-
-    .container,
-    .container-sm,
-    .container-md,
-    .container-lg {}
-}
-
-@media (min-width: 1200px) {
-
-    .container,
-    .container-sm,
-    .container-md,s
-    .container-lg,
-    .container-xl {}
-}
-
-@media (min-width: 1400px) {
-
-    .container,
-    .container-sm,
-    .container-md,
-    .container-lg,
-    .container-xl,
-    .container-xxl {}
 }
 
 .row {
@@ -13385,9 +13347,11 @@ a:hover {
 }
 
 .btn {
-    font-family: "Manrope", sans-serif;
-    border-radius: 0;
-    padding: 14px 30px;
+    font-family: "Sofia Sans", sans-serif;
+    letter-spacing: .2rem;
+    padding: 0.375rem 0.75rem;
+    border-radius: 15px;
+   
 }
 
 .btn:hover,
@@ -13399,7 +13363,7 @@ a:hover {
 }
 
 .btn.btn-primary-outline {
-    border-width: 2px;
+    border-width: .5px;
     border-color: #eee;
     color: #eee;
 }
@@ -13411,7 +13375,7 @@ a:hover {
 
 .btn.btn-primary-outline:hover {
     background: #fff;
-    color: #999;
+    color: #000;
 }
 
 .btn.btn-black {
@@ -14226,12 +14190,14 @@ a:hover {
 }
 
 
-
 .site-section, .section, .section-1, .section-2, .section-3, .section-4, .section-5, .section-6 {
   padding: 50px 0; }
   @media (max-width: 991.98px) {
     .site-section, .section, .section-1, .section-2, .section-3, .section-4, .section-5, .section-6 {
       padding: 25px 0; } }
+
+.site-section, .section-1 {
+  padding-top: 200px; }
 
 .figure-2 {
     margin-top: -60px;
@@ -15552,12 +15518,7 @@ Start of Custom CSS
 .section-title {
     letter-spacing: 1.8em;
     text-align: center;
-    opacity: 50%;
-    padding-bottom: 50px;
-}
-
-.row-padding {
-    padding-top: 50px;
+    opacity: 30%;
     padding-bottom: 50px;
 }
 
@@ -15568,14 +15529,6 @@ Start of Custom CSS
     font-size: 50px;
     padding-top: 250px;
     padding-bottom: 100px;
-}
-
-@media (max-width: 891.98px) {
-    .top-hero {
-        font-size: 30px;
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
 }
 
 .top-hero > span {
@@ -15602,6 +15555,7 @@ Start of Custom CSS
 
 
 .hero-image {
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15645,13 +15599,6 @@ Start of Custom CSS
 .custom-hero {
     padding-top: 0px;
     padding-bottom: 0px;
-}
-
-@media (max-width: 891.98px) {
-    .custom-hero {
-        font-size: 50px;
-        padding-top: 20px;
-    }
 }
 
 .custom-hero > span {
