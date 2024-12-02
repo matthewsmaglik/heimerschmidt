@@ -8787,6 +8787,11 @@ fieldset:disabled .btn {
     text-align: right !important;
 }
 
+.text-end-menu {
+    padding-right: 30px;
+    text-align: right !important;
+}
+
 .text-center {
     text-align: center !important;
 }
@@ -15660,7 +15665,6 @@ Start of Custom CSS
 .custom-hero .sub-text {
     font-size: 18px;
 }
-
 
 
 /*
