@@ -15,42 +15,21 @@
  */
 
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
-  --bs-primary: #ff4c4c;
-  --bs-secondary: #52565e;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
-  --bs-font-sans-serif: "Sofia Sans", sans-serif;
+  --bs-font-sans-serif: "Rubik", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)); }
 
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 1 to 1000
 
-.sofia-sans-<uniquifier> {
-  font-family: "Sofia Sans", sans-serif;
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800
+
+.karla-<uniquifier> {
+  font-family: "Karla", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
-
 
 
 *,
@@ -68,7 +47,7 @@
 
 body {
     max-width:100%;
-    font-family: var(--bs-font-sans-serif);s
+    font-family: var(--bs-font-sans-serif);
     font-size: 1rem;
     line-height: 2;
     color: #ffffff;
@@ -110,6 +89,8 @@ h6,
 h1,
 .h1 {
     font-size: calc(1.375rem + 1.5vw);
+     line-height: 1.9;
+    font-weight: 500;
 }
 
 @media (min-width: 1200px) {
@@ -166,14 +147,14 @@ h5,
 .h5 {
     letter-spacing: .2em;
     font-size: 1.25rem;
-     font-family: "Sofia Sans", sans-serif;
+     font-family: var(--bs-font-sans-serif);
     font-weight: 100;
 }
 
 h6,
 .h6 {
     font-size: 1rem;
-      font-family: "Sofia Sans", sans-serif;
+      font-family: var(--bs-font-sans-serif);
     font-weight: 100;
        text-align: justify;
 }
@@ -12783,7 +12764,7 @@ fieldset:disabled .btn {
 .site-nav {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: "Sofia-Sans", sans-serif;
+    font-family: var(--bs-font-sans-serif);
 }
 
 .site-mobile-menu-close {
@@ -13161,7 +13142,7 @@ fieldset:disabled .btn {
 
 
 body {
-  font-family: "Sofia-Sans", sans-serif;
+  font-family: var(--bs-font-sans-serif);
   font-weight: 100;
   overflow-x: hidden;
   font-size: 16px;
@@ -13257,7 +13238,7 @@ a:hover {
     font-size: 90px;
     font-weight: 700;
     line-height: 1;
-    font-family: "Sofia Sans", sans-serif;
+    font-family: var(--bs-font-sans-serif);
 }
 
 @media (max-width: 991.98px) {
@@ -13322,7 +13303,7 @@ a:hover {
 }
 
 .btn {
-    font-family: "Sofia Sans", sans-serif;
+    font-family: var(--bs-font-sans-serif);
     letter-spacing: .2rem;
     padding: 0.375rem 0.75rem;
     border-radius: 15px;
@@ -14980,7 +14961,7 @@ a:hover {
 }
 
 .article .share h3 {
-    font-family: "Sofia Sans", sans-serif;
+    font-family: var(--bs-font-sans-serif);
     font-size: 12px;
 }
 

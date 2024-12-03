@@ -10,7 +10,9 @@
 	});
 
 
-	var rellax = new Rellax('.rellax');
+  window.onload = function(){
+  var rellax = new Rellax('.rellax', {opt: val});}
+    
 
 	var preloader = function() {
 
